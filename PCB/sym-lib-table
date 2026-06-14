@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "lily58-wireless") (type "KiCad") (uri "${KIPRJMOD}/lily58-wireless.kicad_sym") (options "") (descr ""))
+)

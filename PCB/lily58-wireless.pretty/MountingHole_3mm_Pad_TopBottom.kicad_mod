@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.85 0)
 		(layer "F.SilkS")
-		(uuid "1dcfc65f-27c3-4b02-8da1-9d49582c638e")
+		(uuid "7465d320-87b1-4338-bd1c-882813589d3d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,8 @@
 	(property "Value" "MountingHole_3mm_Pad_TopBottom"
 		(at 0 2.85 0)
 		(layer "F.Fab")
-		(uuid "800e308c-4bd0-42ff-8ace-989a291b3fc7")
+		(hide yes)
+		(uuid "5d21aaf7-4107-4102-a502-71c25c80c323")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5db5c9a0-6cb0-4f8f-aa0c-81707bd3202d")
+		(uuid "fcdef961-b23a-4c53-98f9-db05b9cae0db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b638f5de-92c1-421d-b428-fbc9f31ab287")
+		(uuid "c2c5a28b-566c-4ec4-8f62-091f24e732c3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +57,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "572f80b8-626b-4e62-8e98-3255299d08d5")
+		(uuid "88843b0f-79a0-45d0-965f-d42fe0f8ddfb")
 		(effects
 			(font
 				(size 0.95 0.95)
@@ -71,7 +72,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "69a99ae5-81db-41df-9e54-097a226ef298")
+		(uuid "a7a4b783-3931-4812-9179-2932e102e18f")
 	)
 	(embedded_fonts no)
 )

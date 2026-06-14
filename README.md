@@ -1,4 +1,4 @@
-# TsunyYu - Lily58
+# Lily58 - Wireless
 
 An ergonomic, split mechanical keyboard with a 58-key columnar-staggered layout, derived from the original [Lily58](https://github.com/kata0510/Lily58). This specific variant is optimized for wireless dual-mode connectivity and ultra-low-power Nice!View displays, perfect for developers and creators seeking a clean, cable-free workspace.
 
@@ -19,16 +19,19 @@ Below is the complete list of components required to build one full TsunyYu - Li
 | **Lily58 PCB** | 2 | Left and right halves (reversible design) |
 | **PCB Plate** | 2 | Left and right halves (compatible with 58-key layout) |
 | **Microcontroller** | 2 | Pro Micro or compatible BLE wireless controllers (e.g., nice!nano) |
+| **Tulip Socket** | 2 | SINGLE STRIP ROW 40 CONTACTS, PITCH = 2.54mm |
+| **Machined Pin Header** | 2 | Single row 30 contacts, 2.54mm Round Pin Header |
 | **Display** | 2 | Nice!View (Ultra-low-power display; backward compatible with 0.91" OLED) |
+| **Square Pin Socket** | 2 | 1x5 Female Header |
+| **M2 Screw** | 10 | M2x6mm |
+| **M2 Spacer** | 10 | |
 | **Key Socket** | 58 | Kailh Hotswap Sockets |
 | **Switches** | 58 | MX switches |
-| **Keycaps** | 58 | 1U keycaps recommended, 1.5U optional for thumb keys |
+| **Keycaps** | 58 | 1U keycaps recommended, 1.5U (2) optional for thumb keys |
 | **Diodes** | 58 | 1N4148W (SOD-123) |
-| **Resistors** | 4 | 4k7 ohm (0603) Used for I2C/Display signal stability |
-| **TRRS Jack** | 2 | PJ-320A or equivalent (for wired connection between halves) |
 | **Batteries** | 2 | 3.7V Li-Po batteries (Required for wireless; 110mAh to 300mAh recommended) |
-| **Battery Holders** | 2 | JST GH 1.25mm 2p |
-| **Reset Buttons** | 2 | KXT 321 |
+| **Battery Holders** | 2 | Molex 53621-0271 1.25mm 2p |
+| **Reset Buttons** | 2 | C&K PTS636 SMT G leads 2.5mm height |
 
 ---
 
@@ -39,7 +42,6 @@ Please review these critical steps before heating up your soldering iron:
 1. **Orientation Check**: Because the PCB is reversible, make sure you clearly identify the "Left" and "Right" sides before soldering any components. Do not accidentally mirror the components on the same side.
 2. **Diode Polarity**: Diodes are directional. Ensure the line on the diode (cathode) aligns with the thick line/bar indicated on the PCB silkscreen markings.
 3. **Wireless Safety Precautions**:
-   - Always unplug the battery from the **JST GH connector** before soldering/desoldering any components nearby to prevent accidental short circuits.
    - It is highly recommended to apply **insulating tape** (like Kapton tape) over the PCB traces beneath the microcontroller to prevent shorts between the controller pins and the PCB components/battery.
    - Pay close attention to the pinout when installing the Nice!View. It requires 5 pins (including a CS pin), differing slightly from standard 4-pin OLED setups.
 
@@ -49,8 +51,7 @@ Please review these critical steps before heating up your soldering iron:
 
 This build is fully compatible with open-source keyboard firmwares:
 
-- **ZMK Firmware (Highly Recommended)**: The ideal choice when paired with nice!nano controllers. It natively handles Bluetooth multi-device pairing and unlocks the full low-power efficiency of the Nice!View screen.
-- **QMK Firmware**: Best suited for standard wired setups using traditional Pro Micro controllers.
+- **ZMK Firmware**: The ideal choice when paired with nice!nano controllers. It natively handles Bluetooth multi-device pairing and unlocks the full low-power efficiency of the Nice!View screen.
 
 ---
 

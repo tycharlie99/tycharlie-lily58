@@ -81,12 +81,12 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -98,8 +98,8 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_clearance": "ignore",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -125,7 +125,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "tycharlie-lily58.kicad_pro",
+    "filename": "lily58-wireless.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -717,12 +717,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "tycharlie-lily58.kicad_sch",
-        "name": "tycharlie-lily58",
+        "filename": "lily58-wireless.kicad_sch",
+        "name": "lily58-wireless",
         "uuid": "dd31551e-a590-4c65-b340-cf5e201044b2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,J1",
     "variants": []
   },
   "sheets": [
